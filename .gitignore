@@ -1,7 +1,12 @@
 ### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+.idea/
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+*.iml
+
+### Compilados Java ###
+/out/
 
 ### Eclipse ###
 .apt_generated
@@ -12,8 +17,6 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -25,13 +28,5 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### macOS ###
 .DS_Store
-#######
-# IntelliJ
-.idea/*
-!.idea/misc.xml
-!.idea/modules.xml
-!.idea/vcs.xml
-*.iml
-/out/
